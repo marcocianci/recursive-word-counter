@@ -25,8 +25,8 @@ require __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autol
 use MarcoCianci\WordCounter;
 
 $wordCounter = new WordCounter;
-$text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus varius felis, ut hendrerit magna semper varius. Fusce sed consequat.';
-$wordsTotal = $wordCounter->wordCounter($text);
+$text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus varius felis, 
+ut hendrerit magna semper varius. Fusce sed consequat.';
 $result = $wordCounter->wordCounter($text).PHP_EOL;
 // $result == 20
 
