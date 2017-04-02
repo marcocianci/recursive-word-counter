@@ -21,8 +21,6 @@ class WordCounter
      * @param $array
      * @param int $i
      * @return int
-     * @Hint http://php.net/manual/en/function.count.php
-     * count($array, COUNT_RECURSIVE), could help you ?
      */
     static private function counter($array, $i = 0)
     {
