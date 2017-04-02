@@ -1,24 +1,23 @@
 {
     "name": "marcocianci/word-counter",
     "description": "Recursive Word Counter | Contador de Palavras Recursivo",
-    "type": "library",
-    "require-dev": {
-    },
-    "require": {
-      "php": ">=5.6"
-    },
+    "keywords": ["recursive","word","counter"],
+    "homepage": "http://www.github.com/marcocianci/word-counter",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Marco Cianci",
-            "email": "marco@cianci.com.br"
-        }
+      {
+        "name": "Marco Cianci",
+        "email": "marco@cianci.com.br"
+      }
     ],
+    "require": {
+      "php": ">=5.6",
+    },
+    "require-dev":{},
     "minimum-stability": "dev",
     "autoload": {
       "psr-4": {
         "MarcoCianci": "src/"
       }
     }
-
 }
