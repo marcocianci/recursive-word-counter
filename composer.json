@@ -4,6 +4,9 @@
     "type": "library",
     "require-dev": {
     },
+    "require": {
+      "php": ">=5.6"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +14,11 @@
             "email": "marco@cianci.com.br"
         }
     ],
-    "require": {
-        "php": "^5.6"
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "MarcoCianci": "src/"
+      }
     }
+
 }
