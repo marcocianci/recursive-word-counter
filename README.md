@@ -57,7 +57,7 @@ Array
 */
 ```
 
-##Hint
+## Hint
 http://php.net/manual/en/function.str-word-count.php \
 0 - returns the number of words found
 ```php
