@@ -6,11 +6,11 @@
  * file that was distributed with this source code.
  */
 
-namespace MarcoCianci\WordCounter;
+namespace MarcoCianci;
 
 /**
  * Class WordCounter
- * @package MarcoCianci\WordCounter
+ * @package MarcoCianci
  */
 class WordCounter
 {
